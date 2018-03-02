@@ -741,6 +741,17 @@ public class SpaceNavigationView extends RelativeLayout {
             outState.putSerializable(CHANGED_ICON_AND_TEXT_BUNDLE_KEY, changedItemAndIconHashMap);
     }
 
+
+    /**
+     * Set centre circle linear or bezier
+     *
+     * @param isCentrePartLinear linear center
+     */
+    public void setCentrePartLinear(boolean isCentrePartLinear) {
+        this.isCentrePartLinear = isCentrePartLinear;
+    }
+
+
     /**
      * Set centre circle button background color
      *

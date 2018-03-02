@@ -37,7 +37,7 @@ class BezierView extends RelativeLayout {
 
     private Context context;
 
-    private boolean isLinear=false;
+    private boolean isLinear=true;
 
 
     BezierView(Context context, int backgroundColor) {
